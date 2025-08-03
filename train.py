@@ -11,8 +11,8 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 import wandb 
 
 from tokenizer import create_tokenizer
-from transformer_model import TransformerForClassification
-from hate_speech_dataset import SinhalaHateSpeechDataset, load_sinhala_hate_speech_data
+from model import TransformerForClassification
+from dataset import SinhalaHateSpeechDataset, load_sinhala_hate_speech_data
 import time
 import pandas as pd
 
